@@ -1,0 +1,15 @@
+
+header{ display: flex; color: darkslategray;
+    background-color: rgb(196, 134, 153);
+    flex-direction: row; 
+
+} 
+div{ background-color: rgb(167, 199, 230); width: 3000px;}
+h1{ display: flex; font-style: bold; 
+     flex-direction: column; flex-wrap:center;}
+nav{ display: flex; flex-direction: row;
+
+}
+main {display: flex; background-color: rgb(185, 212, 240); color: rgb(51, 94, 95);
+
+}
