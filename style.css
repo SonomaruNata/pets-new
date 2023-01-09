@@ -2,18 +2,20 @@
 header{  display: block; margin: auto;
     color: rgb(16, 19, 19);
     background-color: rgb(236, 92, 73);
-    flex-direction: column; justify-content: center;
+    flex-direction: row; justify-content: center;
 
 } 
-img { border: 10cm; padding: auto; margin: auto
+img { display:flex 1cm; padding: 1cm; margin: 1cm
      ;}
-h1{ display: flex; font-style: bold; font-size: 120px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-      justify-content: center; margin: 0ch;}
+h1{ display: flex; font-style: bold; 
+    font-size: 120px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      justify-content: center; margin: 2ch;}
 
 nav{ display: flex; flex-direction: row; justify-content:flex-end; overflow: normal;
-background-color: darksalmon; 
+background-color: darksalmon; font-family: fantasy;
 
 }
 main {display: flex; background-color: rgb(190, 173, 77); color: rgb(51, 94, 95);
-
+font-family: fantasy;
 }
+button { font-family: fantasy;}
