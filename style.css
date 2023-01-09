@@ -1,12 +1,17 @@
 
-header{ display: flex; color: rgb(16, 19, 19);
+header{  display: block; margin: auto;
+    color: rgb(16, 19, 19);
     background-color: rgb(236, 92, 73);
-    flex-direction: column; 
+    flex-direction: column; justify-content: center;
 
 } 
+img { border: 10cm; padding: auto; margin: auto
+     ;}
 h1{ display: flex; font-style: bold; font-size: 120px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-      justify-content: center;}
-nav{ display: flex; flex-direction: row; justify-content: end; overflow-wrap: normal;
+      justify-content: center; margin: 0ch;}
+
+nav{ display: flex; flex-direction: row; justify-content:flex-end; overflow: normal;
+background-color: darksalmon; 
 
 }
 main {display: flex; background-color: rgb(190, 173, 77); color: rgb(51, 94, 95);
