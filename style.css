@@ -1,15 +1,15 @@
 
-header{ display: flex; color: darkslategray;
-    background-color: rgb(196, 134, 153);
+header{ display: flex; color: rgb(16, 19, 19);
+    background-color: rgb(187, 47, 28);
     flex-direction: column; 
 
 } 
-div{ background-color: rgb(167, 199, 230); width: 3000px;}
+div{ background-color: rgb(192, 166, 51); width: 3000px;}
 h1{ display: flex; font-style: bold; 
      flex-direction: column; flex-wrap:center;}
 nav{ display: flex; flex-direction: row;
 
 }
-main {display: flex; background-color: rgb(185, 212, 240); color: rgb(51, 94, 95);
+main {display: flex; background-color: rgb(214, 199, 60); color: rgb(51, 94, 95);
 
 }
